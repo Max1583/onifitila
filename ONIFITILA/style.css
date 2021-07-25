@@ -1,0 +1,317 @@
+/*=====GOOGLE FONTS======*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/*===========*/
+iframe{
+    width: 100% !important;
+}
+.dropdown {
+    display: none;
+}
+
+nav .btn {
+    display: none !important;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    overflow-x: hidden;
+
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700 !important;
+    font-size: 2.2rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.307);
+}
+
+/*=============NAVBAR LOGO CONTAINER + LOGO===============*/
+.navbar-brand {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler-icon {
+    width: 30px;
+}
+
+button:focus,
+button:active,
+button:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/*=====MOVE NAV LINKS TO THE RIGHT ======*/
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+/*============NAV LINKS STYLING ==============*/
+.nav-link {
+    font-size: 20px;
+}
+
+
+
+.nav-link {
+    color: #ffffff ;
+}
+
+.dropdown-item {
+    margin-left: -1px;
+}
+
+button {
+    border: none !important;
+    outline: none !important;
+}
+
+/*===============HOMEPAGE CAROUSEL SLIDER====================*/
+.carousel {
+    max-height: 75vh !important;
+    overflow: hidden;
+}
+
+.carousel_img {
+    width: 100vw;
+    height: 100%;
+    z-index: 9 !important;
+}
+
+/*===============HOMEPAGE FLOATING PROGRAM BOXES====================*/
+.floating_program_boxes {
+    margin-top: -150px !important;
+}
+
+.floating_program_box {
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80)), #ffffff url(img/education.jpg) top left/cover no-repeat scroll;
+    box-shadow: 0 64px 64px 0 rgba(35, 35, 35, 0.05), 0 32px 32px 0 rgba(49, 49, 49, 0.05), 0 16px 16px 0 rgba(32, 32, 32, 0.05), 0 8px 8px 0 rgba(32, 32, 32, 0.05), 0 4px 4px 0 rgba(49, 49, 49, 0.05), 0 2px 2px 0 rgba(45, 45, 45, 0.05);
+    padding: 50px 24px 48px 40px;
+    color: whitesmoke;
+    height: 250px;
+    z-index: 100 !important;
+
+}
+
+.floating_program_box p,
+h2,
+a {
+    margin-left: 30px;
+}
+
+.floating_program_box:hover {
+    margin-top: -7px;
+    transition: .5s all;
+}
+
+/*===============HOMEPAGE ABOUT BOXES====================*/
+
+.about-section {
+    margin-top: 100px;
+}
+
+.about-section h2 {
+    margin-bottom: 37px;
+    font-weight: 700;
+}
+
+
+/*===============HOMEPAGE MISSION  BOXES====================*/
+
+.mission-section {
+    background: #112e35;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.mission-section .container {
+    background: whitesmoke;
+    padding: 40px 30px;
+
+}
+
+/*===============HOMEPAGE WHAT WE DO/ THE PROBLEM BOXES====================*/
+
+.what_we_do .col-12 {
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(0.98);
+
+}
+
+.what_we_do .col-12:hover {
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: left;
+
+}
+
+li {
+    list-style: none;
+}
+
+.fa-arrow-circle-right {
+    margin-right: 10px;
+}
+
+/*===============HOMEPAGE PROGRAMS BOXES====================*/
+.programs .col-6 {
+    background: #6f42c1;
+    border-radius: 0px;
+    color: whitesmoke;
+}
+
+.programs .col-6:nth-child(1) {
+    background: #ca55ff;
+    border-radius: 10px 0px 20px 0px;
+}
+
+.programs .col-6:nth-child(2) {
+    background: #54e9ff;
+    border-radius: 0px 10px 0px 20px;
+}
+
+.programs .col-6:nth-child(3) {
+    background: #ff77ce;
+    border-radius: 0px 20px 0px 10px;
+
+}
+
+.programs .col-6:nth-child(4) {
+    background: #ffc944;
+    transform: translate3d(200deg);
+    border-radius: 20px 0px 10px 0px;
+}
+
+/*ABOUT PAGE STYLING*/
+.about_main {
+    margin-top: 150px;
+    color: #333 !important;
+}
+
+.about_main img:nth-child(2) {
+    width: 80px;
+}
+
+.about_main span {
+    font-size: 1.6rem;
+}
+.img-thumbnail{
+    border:none !important;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    .nav-link {
+       
+        color: #fff !important;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    /*===============CANCEL HOMEPAGE FLOATING PROGRAM BOX HOVER NEGATIVE TOP MARGIN====================*/
+
+    .floating_program_box:hover {
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    /*===============GIVE HOMEPAGE FLOATING PROGRAM BOXES MARGN====================*/
+    .floating_program_box {
+        margin: 10px 0px;
+    }
+
+    .nav-link {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 40px;
+        color: #333 !important;
+
+    }
+
+    .nav-link:hover {
+        color: rgb(8, 141, 3) !important;
+    }
+
+    .dropdown-item {
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    #navbarNavDropdown {
+        position: absolute !important;
+        background: white;
+        height: 100vh;
+        bottom: 0px !important;
+        top: 0px !important;
+        left: 0px !important;
+        right: 0px !important;
+        transition: .5s ease;
+        padding-top: 10vh;
+    }
+
+    .nav-item .d-block {
+        padding-right: 20px;
+
+    }
+
+    .close_navbar {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        text-align: right;
+        background: transparent !important;
+        width: 100%;
+        padding: 20px;
+
+
+    }
+
+    iframe {
+        width: 400px !important;
+        margin: auto;
+    }
+
+
+
+
+}
